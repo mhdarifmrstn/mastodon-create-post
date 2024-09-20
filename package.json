@@ -1,0 +1,20 @@
+{
+  "name": "@mhdarifmrstn/mastodon-create-post",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "yarn build && yarn start",
+    "start": "node ./dist/main.js",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "axios": "^1.7.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "prettier": "^3.2.3",
+    "typescript": "^5.3.3"
+  }
+}
